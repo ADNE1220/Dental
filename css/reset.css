@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* border: 1px solid red; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 나눔고딕, sans-serif;
+    color: #333;
+    font-size: 14px;
+    /* line-height: 1.5; */
+}
+
+img {
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.clear_fix::after,
+.clear_fix::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@font-face {
+    font-family: '웰컴체';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
